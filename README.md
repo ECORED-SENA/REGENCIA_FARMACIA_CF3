@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[http://ecored-sena.github.io/REGENCIA_FARMACIA_CF3/](http://ecored-sena.github.io/REGENCIA_FARMACIA_CF3/)
 
 #
 
