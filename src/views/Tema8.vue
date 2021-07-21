@@ -50,10 +50,9 @@
 
     .row
       .col-12
-        p.mb-0 #[strong.span.square B] #[strong Según su comportamiento:]  
-
-
-    LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
+        p.mb-5 #[strong.span.square B] #[strong Según su comportamiento:]  
+        
+    LineaTiempoC.color-secundario(:datos="datosLineaTiempoC" style='margin-bottom:70px')
 
     .row.mb-5
       .col-12
@@ -336,51 +335,63 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC'
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
+  components: {
+    LineaTiempoC,
+  },
   data: () => ({
-    datosLineaTiempoA: [
+    datosLineaTiempoC: [
       {
-        ano: '<img src="images/dinosaur.jpg">',
-        icono: require('@/assets/componentes/ej-05.svg'),
+        icono: require('@/assets/curso/tema4/icon5.svg'),
         texto:
-          '<strong>Cliente amable:</strong> su actitud es amigable, asiente con un sí a todo lo que se le dice, pero no muestra claridad en las cosas, por lo que la mejor estrategia es enseñarle pocos productos.',
+          ' <b> Cliente amable: </b>su actitud es amigable, asiente con un sí a todo lo que se le dice, pero no muestra claridad en las cosas, por lo que la mejor estrategia es enseñarle pocos productos.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon6.svg'),
         texto:
-          '<strong>Cliente entusiasta:</strong> es muy conversador y no siempre sus temas tienen que ver con la compra del producto, por lo que el vendedor es quien debe enfocar la conversación en el producto, pero con sutileza.',
+          '<b>Cliente entusiasta:</b> es muy conversador y no siempre sus temas tienen que ver con la compra del producto, por lo que el vendedor es quien debe enfocar la conversación en el producto, pero con sutileza. ',
       },
       {
+        icono: require('@/assets/curso/tema4/icon7.svg'),
         texto:
-          '<strong>Cliente reflexivo:</strong> le gusta tener las cosas claras y la información completa, antes de realizar cualquier compra, porque es muy organizado. Requiere ser atendido con paciencia, tranquilidad y datos precisos del producto.',
+          '<b>Cliente reflexivo:</b> le gusta tener las cosas claras y la información completa, antes de realizar cualquier compra, porque es muy organizado. Requiere ser atendido con paciencia, tranquilidad y datos precisos del producto.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon8.svg'),
         texto:
-          '<strong>Cliente indeciso:</strong> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
+          '<b>Cliente indeciso:</b> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon9.svg'),
         texto:
-          '<strong>Cliente tímido:</strong> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
+          '<b>Cliente tímido:</b> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon10.svg'),
         texto:
-          '<strong>Cliente silencioso:</strong> es de pocas palabras, pero muy buen escuchante de todo lo que se le dice. No manifiesta de entrada lo que necesita. Se debe ser amable, darle opciones y mostrar interés. ',
+          '<b>Cliente silencioso:</b> es de pocas palabras, pero muy buen escuchante de todo lo que se le dice. No manifiesta de entrada lo que necesita. Se debe ser amable, darle opciones y mostrar interés.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon11.svg'),
         texto:
-          '<strong>Cliente discutidor:</strong> llega en actitud desafiante y soberbia. Ante este tipo de cliente se debe conservar la calma y evitar a toda costa caer en una discusión con él.',
+          '<b>Cliente discutidor:</b> llega en actitud desafiante y soberbia. Ante este tipo de cliente se debe conservar la calma y evitar a toda costa caer en una discusión con él.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon12.svg'),
         texto:
-          '<strong>Cliente orgulloso:</strong> es muy bueno con la labia y cree sabérselas todas, por lo que no permite que lo asesoren. Si permite un consejo, se le brinda con certeza y claridad.',
+          '<b>Cliente orgulloso:</b> es muy bueno con la labia y cree sabérselas todas, por lo que no permite que lo asesoren. Si permite un consejo, se le brinda con certeza y claridad.',
       },
       {
+        icono: require('@/assets/curso/tema4/icon13.svg'),
         texto:
-          '<strong>Cliente escéptico:</strong> es desconfiado y prevenido, por lo que pregunta las ventajas y desventajas del producto, pues teme ser engañado.',
+          '<b>Cliente escéptico:</b> es desconfiado y prevenido, por lo que pregunta las ventajas y desventajas del producto, pues teme ser engañado. ',
       },
       {
+        icono: require('@/assets/curso/tema4/icon14.svg'),
         texto:
-          '<strong>Cliente ocupado:</strong> desde el inicio, su saludo va acompañado de un “cuento con poco tiempo”, suele ser impaciente y querer que lo atiendan de inmediato.',
+          '<b>Cliente ocupado:</b> desde el inicio, su saludo va acompañado de un “cuento con poco tiempo”, suele ser impaciente y querer que lo atiendan de inmediato.',
       },
     ],
   }),

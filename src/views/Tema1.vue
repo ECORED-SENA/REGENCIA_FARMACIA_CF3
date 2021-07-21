@@ -46,12 +46,17 @@
         figure.mb-5
           img(src="@/assets/tema1/img-5.svg")  
 
-    .row.justify-content-around.align-items-center.fond2.mx-5.mb-5  
-      .col-12.col-lg-auto.justify-content-md-center 
-        figure
-          img(src="@/assets/tema1/img-6.svg")  
-      .col-lg.justify-content-md-center.align-self-center
-        p.text-bold Para que una empresa logre su misión (propósito) y visión (hacia dónde debe ir), debe establecer metas estratégicas, que se encuentren en perfecta sintonía con la misión y la visión. Las metas estratégicas pueden definirse como metas establecidas por una organización en un mercado en particular. Es decir, el resultado de lo que espera de su negocio, dentro de un cierto período de tiempo y encaminando los pasos concretos que le permitan, a su organización, cumplir con su misión de visión.
+
+    .row.justify-content-center.mb-3
+      .col-lg-11
+        .bloque-texto-custom.color-secundario.mb-5
+          .bloque-texto-custom__img(
+            :style="{'background-image': `url(${require('@/assets/tema1/img-6.svg')})`}")
+          .bloque-texto-custom__texto 
+            .row.justify-content-center
+                .col-10
+                  p.mb-0.mt-5
+                    b Para que una empresa logre su misión (propósito) y visión (hacia dónde debe ir), debe establecer metas estratégicas, que se encuentren en perfecta sintonía con la misión y la visión. Las metas estratégicas pueden definirse como metas establecidas por una organización en un mercado en particular. Es decir, el resultado de lo que espera de su negocio, dentro de un cierto período de tiempo y encaminando los pasos concretos que le permitan, a su organización, cumplir con su misión de visión.
 
     p.mb-5 Los #[strong objetivos estratégicos] (metas estratégicas), deben cumplir con las siguientes características, ver en la figura 5: 
 
@@ -83,7 +88,7 @@
 
     p.text-small.r-n Tabla 1. Descripción de las características de las políticas, principios y valores
   
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-secundario.mb-5 
       table
         thead
           

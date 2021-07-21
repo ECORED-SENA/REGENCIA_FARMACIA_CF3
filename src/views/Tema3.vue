@@ -10,9 +10,10 @@
 
 
     p.text-small.r-n Mapa de procesos
-    .col-11.col-lg-auto.justify-content-md-center.p-5
-        figure.mb-5
-          img(src="@/assets/tema3/img-1.svg")     
+    .row.justify-content-md-center
+      .col-6
+          figure.mb-5
+            img(src="@/assets/tema3/img-1.svg")     
 
     p Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
     .row.fond3.mb-5
