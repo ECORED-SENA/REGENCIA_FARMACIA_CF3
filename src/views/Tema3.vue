@@ -21,8 +21,28 @@
         SlyderB(:datos="datosSlyder")
 
     p.mx-5.mb-5 El mapa de procesos genera una utilidad o beneficio dentro de la organización que lo implemente; dentro de los beneficios más relevantes se encuentran:
-    figure.mb-5
-          img(src="@/assets/tema3/img-5.svg")          
+    .row.fond13.p-4.mb-5
+      .col-3.px-4.r-r-2.align-self-center
+        figure.img-80.img-c
+          img.mb-3(src="@/assets/tema3/img-5-1.svg")
+        p.text-center.text-white 
+          b Medición de resultados y rendimientos de la organización.
+      .col-3.px-4.r-r-2.img-c.align-self-center
+        figure.img-60.img-c
+          img.img-60.mb-3(src="@/assets/tema3/img-5-2.svg")
+        p.text-center.text-white 
+          b Priorización de procesos para la mejora    
+      .col-3.px-4.r-r-2.align-self-center
+        figure.img-80.img-c
+          img.img-c.mb-3(src="@/assets/tema3/img-5-3.svg")
+        p.text-center.text-white 
+          b Integración de sistemas de atención.     
+      .col-3.px-4.align-self-center
+        figure.img-80.img-c
+          img.img-c.mb-3(src="@/assets/tema3/img-5-4.svg")
+        p.text-center.text-white 
+          b Gestión del riesgo operacional.
+       
     p Es importante tener presente lo siguiente:
 
     .crd_01.mb-4

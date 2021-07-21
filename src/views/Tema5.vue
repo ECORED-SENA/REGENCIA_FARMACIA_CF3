@@ -123,7 +123,7 @@
     p Y el contenido de un Manual de funciones es el siguiente:
 
     .row.justify-content-around.align-items-center.fond2.m-5.p-0 
-      .col-lg.justify-content-md-center.align-self-center.p-5 
+      .col-lg.justify-content-md-center.align-self-center.px-5.order-2.order-lg-1 
         .ul.lista-ul--color.px-5
           li 
             i.ii.fas.fa-atom  
@@ -153,7 +153,7 @@
             i.ii.fas.fa-atom  
             p Relaciones del puesto.
 
-      .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0 
+      .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0.order-1.order-lg-2 
         figure
               img(src='@/assets/tema5/img-8.svg')
 

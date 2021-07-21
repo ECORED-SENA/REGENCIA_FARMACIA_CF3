@@ -104,47 +104,47 @@
                 li 
                   i.fas.fa-atom
                   p Por la relevancia que le dan sentido de pertinencia. 
-
-    .row.justify-content-around.p-5.fond8.mb-5 
-      .col-lg.justify-content-md-center
-        p La mejor manera de enfrentar los conflictos es:
-        ol.lista-ol--cuadro
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 1
-            |      Reconocimiento.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 2
-            |      Definir el problema.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 3
-            |      Reconocer la responsabilidad.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 4
-            |      Deseo real de superarlo.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 5
-            |      Tolerancia al punto de vista del otro.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 6
-            |      Diseñar alternativas de solución y estar abiertos a innovaciones.
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 7
-            |      Elegir una solución en la que ganen todos. 
-          li
-            .lista-ol--cuadro__vineta.ll
-              span 8
-            |      Compromiso con la solución.
-    
-      .col-12.col-lg-auto.justify-content-md-center.mb-4  
-        figure.mb-5
-          img(src="@/assets/tema7/img-5.svg")  
+    .row.justify-content-around.fond8.mb-5
+      .row.col-10.justify-content-around.p-5.fond8
+        .col-lg.justify-content-md-center
+          p La mejor manera de enfrentar los conflictos es:
+          ol.lista-ol--cuadro
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 1
+              |      Reconocimiento.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 2
+              |      Definir el problema.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 3
+              |      Reconocer la responsabilidad.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 4
+              |      Deseo real de superarlo.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 5
+              |      Tolerancia al punto de vista del otro.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 6
+              |      Diseñar alternativas de solución y estar abiertos a innovaciones.
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 7
+              |      Elegir una solución en la que ganen todos. 
+            li
+              .lista-ol--cuadro__vineta.ll
+                span 8
+              |      Compromiso con la solución.
+      
+        .col-12.col-lg-auto.justify-content-md-center.mb-4  
+          figure.img-300
+            img(src="@/assets/tema7/img-5.svg")  
 
 
 

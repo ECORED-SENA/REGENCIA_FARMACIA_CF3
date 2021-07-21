@@ -78,13 +78,13 @@
         p Es necesario promover la cultura de la humanización de los servicios, el proceso de preparación del personal, líneas de intervención con usuarios y clientes internos, práctica de valores y principios humanísticos y, desde la gerencia del talento humano, propender por el respeto a la dignidad humana, la humanización, la motivación y el reconocimiento.
         p La primera impresión que se da, también es la primera impresión que da la empresa. Es la tarjeta de visita.
       .row.justify-content-center
-          .col-10
+          .col-7
             .bloque-texto-d.color-secundario.p-4.blq
               .bloque-texto-d__texto.blq.ii
                 i.fas.fa-quote-left.ii
                 h3.text-regular.d-flex.justify-content-star No hay una segunda oportunidad para una primera impresión
                 i.fas.fa-quote-right.d-flex.justify-content-end.ii
-              .bloque-texto-d__autor 
+              .bloque-texto-d__autor.mt-3 
                 .h5.mb-0 Oscar Wilde
     .row.justify-content-around.align-items-center.p-5  
       .col-12.col-lg-auto.justify-content-md-center.mb-4  

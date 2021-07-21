@@ -85,29 +85,30 @@
               
 
     p Para entender mejor su concepto, a continuación se listan los factores que intervienen en el servicio al cliente:
-    PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row
-        h3 Amabilidad
-        p Hace referencia al trato amable, cortés y servicial. 
-        
-      .row
-        h3 Atención personalizada
-        p Cuando el profesional de la salud le indica que ingrese a consulta médica y lo acompaña durante todo su proceso.
-      .row
-        h3 Rapidez en la atención
-        p Cuando se cuenta con procesos simples y eficientes, cuando se cuenta con una cantidad suficiente de personal, cuando se le capacita al personal para que brinde una rápida atención, etc.
-      .row
-        h3 Ambiente agradable
-        p Cuando los trabajadores le brindan al usuario un trato amable y amigable.
-      .row
-        h3 Comodidad
-        p Cuando las instalaciones de la Institución cuentan con espacios amplios y cómodos.
-      .row
-        h3 Seguridad
-        p Cuando se cuenta con suficiente personal de seguridad, cuando se tienen claramente marcadas las zonas de seguridad, cuando se tienen claramente señalizadas las vías de escape, cuando se cuenta con botiquines médicos, etc.
-      .row
-        h3 Higiene
-        p Por ejemplo, cuando se evidencian los baños de la institución siempre limpios, con todos sus implementos de higiene como jabón, papel, etc., pisos y sanitarios aseados.                                      
+    .col-md-10.img-c 
+      PasosA.color-acento-contenido.mb-5(tipo="n")
+        .row
+          h3 Amabilidad
+          p Hace referencia al trato amable, cortés y servicial. 
+          
+        .row
+          h3 Atención personalizada
+          p Cuando el profesional de la salud le indica que ingrese a consulta médica y lo acompaña durante todo su proceso.
+        .row
+          h3 Rapidez en la atención
+          p Cuando se cuenta con procesos simples y eficientes, cuando se cuenta con una cantidad suficiente de personal, cuando se le capacita al personal para que brinde una rápida atención, etc.
+        .row
+          h3 Ambiente agradable
+          p Cuando los trabajadores le brindan al usuario un trato amable y amigable.
+        .row
+          h3 Comodidad
+          p Cuando las instalaciones de la Institución cuentan con espacios amplios y cómodos.
+        .row
+          h3 Seguridad
+          p Cuando se cuenta con suficiente personal de seguridad, cuando se tienen claramente marcadas las zonas de seguridad, cuando se tienen claramente señalizadas las vías de escape, cuando se cuenta con botiquines médicos, etc.
+        .row
+          h3 Higiene
+          p Por ejemplo, cuando se evidencian los baños de la institución siempre limpios, con todos sus implementos de higiene como jabón, papel, etc., pisos y sanitarios aseados.                                      
 
     .row.mb-5
       figure

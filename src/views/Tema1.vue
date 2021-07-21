@@ -8,7 +8,7 @@
       h1 Plataforma estratégica de la Institución
 
     .row.justify-content-around.align-items-center.p-5  
-      .col-lg.justify-content-md-center.align-self-center     
+      .col-lg-6.justify-content-md-center.align-self-center     
         p Dentro del proceso de conceptualización, el #[strong planeamiento] se puede definir como: 
  
         .row.justify-content-around.align-items-center.mb-3
@@ -16,7 +16,7 @@
             h4 Planeamiento (Planeación)
             p Generación de una idea, que lleva al establecimiento de un objetivo y, a través de este, a la conformación del proceso de planificación más operativo, utilizando para ello diversas estrategias. 
 
-      .col-12.col-lg-auto.justify-content-md-center.mb-4
+      .col-lg-6.justify-content-md-center.mb-4
         figure.mb-5
           img(src="@/assets/tema1/img-1.svg")  
 
@@ -28,10 +28,24 @@
           img(src="@/assets/tema1/img-2.svg")  
 
     p.mb-5 Dentro de la #[strong planeación estratégica], se cuenta con #[strong dos acciones macro] que ayudan a llevar a cabo las actividades planeadas; estas acciones se pueden identificar, como se verá en el siguiente análisis en la figura 2:           
-    p.text-small.r-n Acciones estratégicas y acciones tácticas
-    .col-11.col-lg-auto.justify-content-md-center.p-5
-        figure.mb-5
-          img(src="@/assets/tema1/img-3.svg")      
+     p.text-small.r-n Acciones estratégicas y acciones tácticas
+    
+    .row.justify-content-around.mb-5
+      .row.col-12.justify-content-around
+        .col-lg-5.fond11.p-5.mb-3.mx-0
+          figure.mb-5
+            img.img-300.img-c(src="@/assets/tema1/img-3-.svg")
+          p.text-white Representa el pensamiento, la dirección a dónde se quiere llegar. Mira hacia fuera de la organización.
+                
+        .col-lg-5.fond11-2.p-5.mb-3.mx-0
+          figure.mb-5
+            img.img-c.img-300(src="@/assets/tema1/img-3--.svg")
+          p.mb-0.text-white Representa el aspecto operativo.
+          p.text-white Mira hacia dentro de la organización.
+
+
+
+
 
     p Acorde con la información anterior, se puede concluir que:#[strong  lo estratégico está ligado con la visión empresarial] y #[strong lo táctico se enlaza, directamente, con la misión empresarial]. En este sentido, es indispensable tener presente qué características debe cumplir cada una de estas acciones, para cumplir con un despliegue relativamente fácil, dentro de la organización.
     p Las siguientes imágenes en la figura 3 nos exponen qué son la misión y la visión:
@@ -46,25 +60,47 @@
         figure.mb-5
           img(src="@/assets/tema1/img-5.svg")  
 
-
-    .row.justify-content-center.mb-3
-      .col-lg-11
-        .bloque-texto-custom.color-secundario.mb-5
-          .bloque-texto-custom__img(
-            :style="{'background-image': `url(${require('@/assets/tema1/img-6.svg')})`}")
-          .bloque-texto-custom__texto 
-            .row.justify-content-center
-                .col-10
-                  p.mb-0.mt-5
-                    b Para que una empresa logre su misión (propósito) y visión (hacia dónde debe ir), debe establecer metas estratégicas, que se encuentren en perfecta sintonía con la misión y la visión. Las metas estratégicas pueden definirse como metas establecidas por una organización en un mercado en particular. Es decir, el resultado de lo que espera de su negocio, dentro de un cierto período de tiempo y encaminando los pasos concretos que le permitan, a su organización, cumplir con su misión de visión.
+    br
+    
+    .row.justify-content-center.mb-5.fond2.align-self-center.mx-3
+      .col-5
+          img(src="@/assets/tema1/img-6.svg") 
+      .col-7.align-self-center.p-5.px-0.pl-5
+          p.mb-0.ml
+            b Para que una empresa logre su misión (propósito) y visión (hacia dónde debe ir), debe establecer metas estratégicas, que se encuentren en perfecta sintonía con la misión y la visión. Las metas estratégicas pueden definirse como metas establecidas por una organización en un mercado en particular. Es decir, el resultado de lo que espera de su negocio, dentro de un cierto período de tiempo y encaminando los pasos concretos que le permitan, a su organización, cumplir con su misión de visión.
 
     p.mb-5 Los #[strong objetivos estratégicos] (metas estratégicas), deben cumplir con las siguientes características, ver en la figura 5: 
 
 
-    p.text-small.r-n Características de los objetivos estratégicos
-    .col-11.col-lg-auto.justify-content-md-center.px-5
-        figure.mb-5
-          img(src="@/assets/tema1/img-7.svg")  
+
+    .row.col-lg-12.justify-content-md-center.fond13      
+      .col-md-3.fond12.mb-3.mx-1.p-5
+        figure
+          img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-1.svg")
+        p.text-center 
+          b Deben ser alcanzables
+      .col-md-3.fond12.p-5.mb-3.mx-1
+        figure
+          img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-2.svg")
+        p.text-center 
+          b Deben ser de fácil comprensión
+      .col-md-3.fond12.p-5.mb-3.mx-1
+        figure
+          img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-3.svg")
+        p.text-center 
+          b Deben ser medibles         
+    .row.col-lg-12.justify-content-md-center      
+      .col-md-3.fond13.mb-3.mx-1.p-5
+        figure
+          img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-4.svg")
+        p.text-center 
+          b Deben estar ligados a una línea de tiempo.
+      .col-md-3.fond13.p-5.mb-3.mx-1
+        figure
+          img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-5.svg")
+        p.text-center 
+          b Deben derivarse de las estrategias, de la misión y de la visión.
+               
 
     p Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación en la figura 6, se presenta una comparación entre ellos.
 

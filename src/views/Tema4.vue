@@ -11,9 +11,10 @@
     p Algunas de sus características son reconocibles en la figura 12:
     
     p.text-small.r-n Características FODA
-    .col-11.col-lg-auto.justify-content-md-center.p-5
+    .row.justify-content-md-center.px-5
+      .col-10
         figure.mb-5
-          img(src="@/assets/tema4/img-1.svg")     
+          img(src="@/assets/tema4/img-1-.svg")     
 
 
 

@@ -39,33 +39,33 @@
             .col-xl-6
               p Comprende el patrón general de conductas, creencias y valores compartidos por los miembros de una organización. Entre sus elementos se encuentran:
               .ul.lista-ul--color.px-5
-                li 
+                li.mb-0  
                   i.ii.fas.fa-atom  
-                  p Mayor identificación de los colaboradores con la empresa y su cargo.
-                li 
+                  p.mb-2 Mayor identificación de los colaboradores con la empresa y su cargo.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Trabajo colaborativo.
-                li 
+                  p.mb-2 Trabajo colaborativo.
+                li.mb-0  
                   i.ii.fas.fa-atom  
-                  p Integración de los procesos.
-                li 
+                  p.mb-2 Integración de los procesos.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Promover el autocontrol y no la vigilancia hacia el colaborador.
-                li 
+                  p.mb-2 Promover el autocontrol y no la vigilancia hacia el colaborador.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Fomentar la innovación y creatividad.
-                li 
+                  p.mb-2 Fomentar la innovación y creatividad.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Recompensar por méritos y no favoritismos.
-                li 
+                  p.mb-2 Recompensar por méritos y no favoritismos.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Tolerancia al conflicto.
-                li 
+                  p.mb-2 Tolerancia al conflicto.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p La gerencia prioriza los fines o los medios para llegar a ellos.
-                li 
+                  p.mb-2 La gerencia prioriza los fines o los medios para llegar a ellos.
+                li.mb-0   
                   i.ii.fas.fa-atom  
-                  p Enfoque de la gerencia hacia los asuntos internos o externos.
+                  p.mb-2 Enfoque de la gerencia hacia los asuntos internos o externos.
     separador
     #t_6_1.titulo-segundo
       h2 6.1 Mecanismos de estímulo al colaborador
@@ -95,30 +95,31 @@
           figure
                 img.img-c(src='@/assets/tema6/img-5.svg')  
 
-    .row.fond5
-      p.m-5 Aquí entran dos temas importantes: 
-      figure.p-5
-        img.img-c(src='@/assets/tema6/img-6-.svg')  
+
+    .row.justify-content-md-center.px-5.fond5
+      p.m-5 Aquí entran dos temas importantes:
+      .col-10    
+        figure.p-5
+          img.img-c(src='@/assets/tema6/img-6-.svg')  
     separador.mb-5
     #t_6_2.titulo-segundo
       h2 6.2 Ingeniería organizacional
     p Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la figura 13.
-    .row.justify-content-around.align-items-center
-      .col-10
+    .row.justify-content-around.align-items-center.img-c
+      .col-10.img-c
         p.text-small.r-n Ingeniería organizacional
-        .col-11.col-lg-auto.justify-content-md-center.p-5
-          figure.mb-5
+        figure.mb-5.img-500.img-c
             img(src="@/assets/tema6/img-7-.svg")  
     separador
 
     #t_6_3.titulo-segundo
     h2 6.3 Portafolio de servicios
-    .row.justify-content-around.align-items-center.p-5  
+    .row.justify-content-around.my-5
  
-      .col-lg.justify-content-md-center.align-self-center      
+      .col-lg.justify-content-md-center      
         p Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
-        figure.mb-5
+        figure.mb-5.img-400
           img(src="@/assets/tema6/img-8.svg")  
     separador
     #t_6_4.titulo-segundo
@@ -150,23 +151,25 @@
 
               p #[strong Retroalimentación:] en este proceso, el receptor se transforma en emisor, lo que puede generar problemas de barrera, dados para el emisor.
 
-    p Existen diferentes tipos de comunicación:
-    .crd_02.mb-3
-      .crd_02__icon
-        img(src="@/assets/tema6/img-12.svg", alt="alt").class          
-      .crd_02__txt
-        p.mb-0 #[strong Verbal:] permite expresar y transmitir un mensaje de manera:
-        p.mb-0 Oral.
-        p Escrita.
+    p.mb-5 Existen diferentes tipos de comunicación:
+    .row.col-10.img-c
+    
+      .crd_02.mb-3
+        .crd_02__icon
+          img(src="@/assets/tema6/img-12.svg", alt="alt").class          
+        .crd_02__txt
+          p.mb-0 #[strong Verbal:] permite expresar y transmitir un mensaje de manera:
+          p.mb-0 Oral.
+          p Escrita.
 
-    .crd_02.mb-5
-      .crd_02__icon
-        img(src="@/assets/tema6/img-13.svg", alt="alt").class          
-      .crd_02__txt
-        p.mb-0 #[strong No verbal:] no se emiten palabras o mensajes. Es esencialmente el lenguaje corporal donde intervienen:
-        p.mb-0 El entorno.
-        p.mb-0 La postura corporal.
-        p.mb-0 La postura facial.
+      .crd_02.mb-5
+        .crd_02__icon
+          img(src="@/assets/tema6/img-13.svg", alt="alt").class          
+        .crd_02__txt
+          p.mb-0 #[strong No verbal:] no se emiten palabras o mensajes. Es esencialmente el lenguaje corporal donde intervienen:
+          p.mb-0 El entorno.
+          p.mb-0 La postura corporal.
+          p.mb-0 La postura facial.
 
     p.mb-5 Retornando al ámbito organizacional, donde la comunicación puede ser transferida de diversas maneras, dependiendo de las necesidades de la empresa, la rapidez requerida, las responsabilidades asignadas y los que se encuentren comprometidos en la decisión que se comunica. Estas formas de comunicación pueden ser:
 
