@@ -34,7 +34,7 @@
       .row.col-12.justify-content-around
         .col-lg-5.fond11.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-300.img-c(src="@/assets/tema1/img-3-.svg")
+            img.img-c.img-300(src="@/assets/tema1/img-3-.svg")
           p.text-white Representa el pensamiento, la dirección a dónde se quiere llegar. Mira hacia fuera de la organización.
                 
         .col-lg-5.fond11-2.p-5.mb-3.mx-0
@@ -73,7 +73,7 @@
 
 
 
-    .row.col-lg-12.justify-content-md-center.fond13      
+    .row.col-lg-12.justify-content-md-center    
       .col-md-3.fond12.mb-3.mx-1.p-5
         figure
           img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-1.svg")
@@ -90,12 +90,12 @@
         p.text-center 
           b Deben ser medibles         
     .row.col-lg-12.justify-content-md-center      
-      .col-md-3.fond13.mb-3.mx-1.p-5
+      .col-md-3.fond12.mb-3.mx-1.p-5
         figure
           img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-4.svg")
         p.text-center 
           b Deben estar ligados a una línea de tiempo.
-      .col-md-3.fond13.p-5.mb-3.mx-1
+      .col-md-3.fond12.p-5.mb-3.mx-1
         figure
           img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-5.svg")
         p.text-center 

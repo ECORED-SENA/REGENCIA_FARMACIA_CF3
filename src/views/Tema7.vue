@@ -9,10 +9,22 @@
     p Las relaciones laborales pueden verse afectadas por muchos tipos diferentes de conflictos, incluidos problemas laborales y personales. Lo más importante es aprender a gestionar las relaciones laborales para lograr los objetivos establecidos sin afectar el entorno laboral. Las organizaciones juegan un papel activo en dar forma y reforzar su cultura. El líder decide qué se debe probar y qué medir. 
     p Para manejar el conflicto se requiere de un buen liderazgo, el cual se constituye como un conjunto de habilidades gerenciales o grupales que un individuo tiene para influir en el comportamiento o conducta de una persona, o dentro de un grupo de trabajo en particular. Este equipo trabaja con entusiasmo para lograr metas u objetivos comunes. 
     p Una de las mayores contribuciones en el campo de la gestión estratégica en los últimos años, ha sido enfatizar la importancia del equipo directivo en el desarrollo de la estrategia y la eficacia o desempeño de una empresa. Las decisiones dentro de este incluyen acciones en la selección de diferentes alternativas para resolver un problema o para lograr las metas establecidas.
+    .row.traslape3.align-items-center.mb-5(data-aos="fade-up")
+      .col-lg-3.ms-auto.p-0
+        img(src='@/assets/tema7/img-1.svg', alt='manos caras')
+      .col-lg-4.p-5.fcp.fcp--mobile
+        .mt-3
+        p Actualmente se están tomando decisiones, pero es importante entender que tendrán consecuencias en el futuro. La persona que asuma el poder de decisión debe contar con las siguientes características:
+        p.mb-0 Creatividad
+        p.mb-0 Intuición 
+        p.mb-0 Juicio 
+        p.mb-0 Experiencia
+        p.mb-0 Criterio
+        p.mb-0 Rapidez de decisión 
 
-    figure.mb-5.px-5
-          img(src="@/assets/tema7/img-1.svg")
-
+      .col-lg-3.me-auto.p-0
+        img(src='@/assets/tema7/img-1-.svg', alt='gente')
+    
     p Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura 14.
 
     p.text-small.r-n Proceso de decisión

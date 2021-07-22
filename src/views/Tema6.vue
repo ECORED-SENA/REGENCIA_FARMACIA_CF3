@@ -114,12 +114,12 @@
 
     #t_6_3.titulo-segundo
     h2 6.3 Portafolio de servicios
-    .row.justify-content-around.my-5
- 
+    .row.justify-content-around.mt-5
+
       .col-lg.justify-content-md-center      
         p Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
-        figure.mb-5.img-400
+        figure.img-400
           img(src="@/assets/tema6/img-8.svg")  
     separador
     #t_6_4.titulo-segundo
@@ -128,10 +128,55 @@
     p Existe una serie de elementos que hacen posible este proceso:
     .row.justify-content-around.align-items-center
       .col-9 
-        figure.p-5
-          img(src="@/assets/tema6/img-9-.svg")  
-      figure.mb-5
-          img(src="@/assets/tema6/img-10.svg")            
+         ImagenInfografica.color-secundario.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/tema6/img-9-.svg')
+             
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="12.7%" y="31.5%")
+            .h5.mb-2.text-n Fuente
+            p.text-n Base de información de donde es obtenida por quien la emite. 
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="70.4%" y="31.3%")
+            .h5.mb-2.text-n Receptor
+            p.text-n Quien recibe el mensaje o información.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="54.5%" y="29.5%")
+            .h5.mb-2.text-n Canal de comunicación
+            p.text-n Es el medio a través del cual es transmite la información.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="27.6%" y="91.4%")
+            .h5.mb-2.text-n Contexto
+            p.text-n Es el medio o entorno que rodea al emisor y al receptor.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="58.1%" y="75.3%")
+            .h5.mb-2.text-n Retroalimentación
+            p.text-n Proceso de control, de verificación de lo recibido.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="37.4%" y="49%")
+            .h5.mb-2.text-n Emisor
+            p.text-n Quien emite el mensaje.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="29.4%" y="14%")
+            .h5.mb-2.text-n Mensaje
+            p.text-n Es el contenido, bien sea de una carta, un correo, un mensaje hablado o grabado, entre otros.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="44.5%" y="14%")
+            .h5.mb-2.text-n Código
+            p.text-n Idioma en el que se transmite el mensaje.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="59.3%" y="41.3%")
+            .h5.mb-2.text-n Ruidos
+            p.text-n Posibles interferencias que pueden distorsionar la emisión y la recepción del mensaje.
+
+          .tarjeta.color-acento-botones.fond14.p-3(x="84.7%" y="53%")
+            .h5.mb-2.text-n Ruidos
+            p.text-n Posibles interferencias que pueden distorsionar la emisión y la recepción del mensaje. 
+
+
+
+         
 
     p.mb-5 Pero algunos de estos elementos tienen una barrera:
 

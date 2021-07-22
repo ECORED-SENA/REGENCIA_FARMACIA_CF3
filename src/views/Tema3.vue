@@ -11,7 +11,7 @@
 
     p.text-small.r-n Mapa de procesos
     .row.justify-content-md-center
-      .col-6
+      .col-10
           figure.mb-5
             img(src="@/assets/tema3/img-1.svg")     
 

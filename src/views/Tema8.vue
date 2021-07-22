@@ -110,28 +110,34 @@
           h3 Higiene
           p Por ejemplo, cuando se evidencian los baños de la institución siempre limpios, con todos sus implementos de higiene como jabón, papel, etc., pisos y sanitarios aseados.                                      
 
-    .row.mb-5
-      figure
-        img(src='@/assets/tema8/img-17-.svg', alt='Texto que describa la imagen')
-        
-    .row.justify-content-around.align-items-center.m-5.p-0 
-      .col-lg.justify-content-md-center.align-self-center.p-5
-        p En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
-        br
-        .ul.lista-ul--color.px-5
-          li 
-            i.ii.fas.fa-atom  
-            p Atributos del buen servicio. 
-          li 
-            i.ii.fas.fa-atom  
-            p Actitud.
-          li 
-            i.ii.fas.fa-atom  
-            p Atención a personas alteradas
 
-      .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0 
-        figure
-              img(src='@/assets/tema8/img-18.svg')
+
+    .row.justify-content-center.mb-5.fond2.align-self-center.mx-3
+      .col-5
+          img(src="@/assets/tema8/img-17.svg") 
+      .col-7.align-self-center.p-5.px-0
+          p.mb-0.mx-5
+            b El buen servicio al cliente debe estar presente en todos los servicios que solicite el usuario. Debe prevalecer la interacción con el usuario, desde el saludo hasta el final de la atención del paciente y su posterior egreso. Para esto es necesario capacitar y motivar permanentemente, no solo al personal que está en contacto con el usuario sino en general a todo el talento humano de la institución, para la prestación de un servicio con calidad.       
+    br
+    .row.col-8.img-c.mb-5 
+      .row.my-5
+        .col-7
+          p En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
+          br
+          .ul.lista-ul--color
+            li 
+              i.ii.fas.fa-atom  
+              p Atributos del buen servicio. 
+            li 
+              i.ii.fas.fa-atom  
+              p Actitud.
+            li 
+              i.ii.fas.fa-atom  
+              p Atención a personas alteradas
+
+        .col-5.img-c
+          figure
+                img(src='@/assets/tema8/img-18.svg')
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center
@@ -146,9 +152,9 @@
                   p.mb-1.texto-blanco Para ampliar la información, se debe explorar la normatividad vigente, revisando el siguiente enlace para profundizar en la temática.
                   
                 .col-sm-auto
-                  a.boton.bb(:href="('https://www.nueva-iso-9001-2015.com/')" target="_blank")
-                    span.px-4.bb Ver  
-                    i.bb.fas.fa-link   
+                  a.boton.bb(:href="obtenerLink('/downloads/protocolo-atencion-ciudadano-sector-salud.pdf')" target="_blank")
+                    span.px-4 Descargar  
+                    i.fas.fa-file-download 
 
     .row.mb-5
       .row.traslape2.mb-5
@@ -177,16 +183,17 @@
     p.text-small.r-n Ciclo de servicio
 
                  
+    .row.col-10.img-c
+      .row.justify-content-around.align-items-center 
+        .col-12.col-lg-auto.justify-content-md-center.mb-4.mx-3  
+          figure.mb-5
+            img.img-400(src="@/assets/tema8/img-21.svg")  
+        .col-lg.justify-content-md-center.align-self-center
+          .cajon.color-secundario.p-4.mb-4.fond1.py-5
+            
+              p #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
+        p Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
 
-    .row.justify-content-around.align-items-center 
-      .col-12.col-lg-auto.justify-content-md-center.mb-4  
-        figure.mb-5
-          img(src="@/assets/tema8/img-21.svg")  
-      .col-lg.justify-content-md-center.align-self-center
-        .cajon.color-secundario.p-4.mb-4.fond1.py-5
-           
-            p #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
-      p Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
     p.text-small.r-n Tabla 2. Síntomas y signos de mal servicio al cliente
     .tabla-b.color-acento-contenido.mb-5
       
@@ -201,67 +208,65 @@
               strong Quejas permanentes de clientes y usuarios
             td
               ul
-                li All&aacute; nunca contestan. 
-                li Me pasan de un lado al otro. 
-                li Todos me dicen cosas distintas. 
-                li No parece que me contestaran de una empresa. 
-                li Siempre me dejan esperando. 
+                li.mb-2 All&aacute; nunca contestan. 
+                li.mb-2 Me pasan de un lado al otro. 
+                li.mb-2 Todos me dicen cosas distintas. 
+                li.mb-2 No parece que me contestaran de una empresa. 
+                li.mb-2 Siempre me dejan esperando. 
           tr
             td
               strong Base de datos no confiable
             td
               ul
-                li Cada asesor maneja su archivo de clientes. 
-                li
-                  | Dificultad para decidir cu&aacute;l base de datos usar para ejecutar diversos an&aacute;lisis.
-                li No se est&aacute; seguro de qu&eacute; tan actualizada se encuentre. 
+                li.mb-2 Cada asesor maneja su archivo de clientes. 
+                li.mb-2 Dificultad para decidir cu&aacute;l base de datos usar para ejecutar diversos an&aacute;lisis.
+                li.mb-2 No se est&aacute; seguro de qu&eacute; tan actualizada se encuentre. 
           tr
             td
               strong La organizaci&oacute;n no aprende con el proceso
             td
               ul
-                li
-                  | No se utilizan los casos de quejas y reclamos, para mejorar los procesos de negocio.
-                li No se usan las preguntas frecuentes (PQRS), para ajustar las comunicaciones. 
-                li El proceso no es un semillero &uacute;til para suplir vacantes de otras dependencias. 
+                li.mb-2 No se utilizan los casos de quejas y reclamos, para mejorar los procesos de negocio.
+                li.mb-2 No se usan las preguntas frecuentes (PQRS), para ajustar las comunicaciones. 
+                li.mb-2 El proceso no es un semillero &uacute;til para suplir vacantes de otras dependencias. 
           tr
             td
               strong No ha desarrollado todo el potencial de su proceso
             td
               ul
-                li Para mejorar la experiencia del cliente. 
-                li Para conocer mejor a sus clientes. 
-                li Para vender m&aacute;s. 
-                li Para recuperar cartera. 
-                li Para fidelizar clientes. 
-                li Para promocionar su negocio. 
-                li Para hacer encuestas. 
-                li Para recibir quejas y reclamos. 
-                li Para resolver inquietudes. 
-                li Para solucionar requerimientos. 
-                li Para sistematizar informaci&oacute;n. 
-                li Para actualizar y enriquecer las bases de datos. 
-                li Para apoyar a los equipos de ventas. 
-                li Para apoyar a sus canales. 
+                li.mb-2 Para mejorar la experiencia del cliente. 
+                li.mb-2 Para conocer mejor a sus clientes. 
+                li.mb-2 Para vender m&aacute;s. 
+                li.mb-2 Para recuperar cartera. 
+                li.mb-2 Para fidelizar clientes. 
+                li.mb-2 Para promocionar su negocio. 
+                li.mb-2 Para hacer encuestas. 
+                li.mb-2 Para recibir quejas y reclamos. 
+                li.mb-2 Para resolver inquietudes. 
+                li.mb-2 Para solucionar requerimientos. 
+                li.mb-2 Para sistematizar informaci&oacute;n. 
+                li.mb-2 Para actualizar y enriquecer las bases de datos. 
+                li.mb-2 Para apoyar a los equipos de ventas. 
+                li.mb-2 Para apoyar a sus canales. 
           tr
             td
               strong Proceso dif&iacute;cil de gerenciar
             td
               ul
-                li Las instrucciones no se distribuyen entre los destinatarios. 
-                li No sabe si los recursos que tiene son suficientes o no. 
-                li No sabe como medir el proceso en sus diferentes aspectos. 
-                li Es complicado conocer los costos reales incurridos. 
-                li Tiene dudas acerca de si es mejor hacerlo usted, o tercerizarlo. 
-                li No cuenta con las herramientas adecuadas. 
-                li El proceso no marcha solo. 
-                li No monitorea la calidad del servicio. 
-                li Realiza actividades propias del proceso, en diferentes dependencias. 
-                li No sabe cu&aacute;les son las actividades del proceso. 
-                li No tiene ning&uacute;n proceso que soporte el servicio al cliente. 
-                li La ausencia de una sola persona del grupo afecta el desempe&ntilde;o del negocio. 
-                li No cuenta con informes peri&oacute;dicos que reflejen la realidad del proceso.  
-                li No sabe si la tecnolog&iacute;a que utiliza es adecuada para el momento de su negocio. 
+                li.mb-2 Las instrucciones no se distribuyen entre los destinatarios. 
+                li.mb-2 No sabe si los recursos que tiene son suficientes o no. 
+                li.mb-2 No sabe como medir el proceso en sus diferentes aspectos. 
+                li.mb-2 Es complicado conocer los costos reales incurridos. 
+                li.mb-2 Tiene dudas acerca de si es mejor hacerlo usted, o tercerizarlo. 
+                li.mb-2 No cuenta con las herramientas adecuadas. 
+                li.mb-2 El proceso no marcha solo. 
+                li.mb-2 No monitorea la calidad del servicio. 
+                li.mb-2 Realiza actividades propias del proceso, en diferentes dependencias. 
+                li.mb-2 No sabe cu&aacute;les son las actividades del proceso. 
+                li.mb-2 No tiene ning&uacute;n proceso que soporte el servicio al cliente. 
+                li.mb-2 La ausencia de una sola persona del grupo afecta el desempe&ntilde;o del negocio. 
+                li.mb-2 No cuenta con informes peri&oacute;dicos que reflejen la realidad del proceso.  
+                li.mb-2 No sabe si la tecnolog&iacute;a que utiliza es adecuada para el momento de su negocio. 
     .col-lg.justify-content-md-center.align-self-center.img-c.mb-5
         .col-10.cajon.color-secundario.p-4.mb-4.fond1.py-5.img-c
            
