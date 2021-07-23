@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Direccionamiento estratégico',
     descripcionCurso:
       'Este componente formativo describe la ruta que deben seguir las empresas del sector salud, para lograr sus objetivos misionales y estratégicos; al mismo tiempo que se realizan revisiones periódicas para ajustar los procesos misionales de acuerdo con los cambios del entorno y al plan de gestión de la entidad.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
