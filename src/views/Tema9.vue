@@ -86,12 +86,15 @@
                 i.fas.fa-quote-right.d-flex.justify-content-end.ii
               .bloque-texto-d__autor.mt-3 
                 .h5.mb-0 Oscar Wilde
+    
     .row.justify-content-around.align-items-center.p-5  
-      .col-12.col-lg-auto.justify-content-md-center.mb-4  
+      h4.order-2.order-lg-1.mb-5 Recomendaciones: 
+      .col-12.col-lg-auto.justify-content-md-center.mb-4.order-1.order-lg-2  
+
         figure
           img(src='@/assets/tema9/img-3.svg')
-      .col-lg.justify-content-md-center.align-self-center
-          
+      .col-lg.justify-content-md-center.align-self-center.order-3
+
         
         .crd_03.mb-4.sep.pt-4
           .crd_03__icon

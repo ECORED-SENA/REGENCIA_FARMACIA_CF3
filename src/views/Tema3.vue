@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Mapa de procesos
-    p Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura 11:
+    p Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
 
 
     p.text-small.r-n Mapa de procesos
@@ -85,7 +85,7 @@ export default {
         titulo: 'Mapa de proceso lineal',
         texto:
           'Para este tipo de mapas se utilizan las bases teóricas del diagrama de flujo para la representación global de los procesos de la organización. Despliega los procesos operativos como un diagrama de flujo.',
-        imagen: require('@/assets/tema3/img-3.svg'),
+        imagen: require('@/assets/tema3/img-4.svg'),
       },
     ],
   }),

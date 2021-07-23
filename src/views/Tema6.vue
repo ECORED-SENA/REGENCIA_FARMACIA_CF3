@@ -84,7 +84,7 @@
 
         .row.justify-content-around.align-items-center.mb-3
           .cajon.color-secundario.p-4.mb-4.fond1.px-4
-            p Para cumplir con este objetivo se estudiará, en el componente formativo, qué es la plataforma estratégica de la Institución, su organigrama, mapa de procesos, la matriz DOFA, el reglamento, clima organizacional, portafolio de servicios y, no se puede dejar de lado un tema importante, el servicio al cliente y, por supuesto, los principios éticos y bioéticos en la prestación del servicio.
+            p Para que el ambiente laboral se convierta en fuente de salud, debe existir un clima que ofrezca confianza y favorezca la eliminación de sentimientos y actitudes negativas hacia la organización o algunos de sus miembros.
 
       .row.justify-content-around.align-items-center.p-5 
         .col-lg.justify-content-md-center.align-self-center
@@ -104,7 +104,7 @@
     separador.mb-5
     #t_6_2.titulo-segundo
       h2 6.2 Ingeniería organizacional
-    p Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la figura 13.
+    p Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
     .row.justify-content-around.align-items-center.img-c
       .col-10.img-c
         p.text-small.r-n Ingeniería organizacional

@@ -8,7 +8,7 @@
       h1 Servicio al cliente 
 
     p Un cliente se define como la persona u organización que realiza una compra. Puede comprar y disfrutar la propiedad o el servicio que compró usted mismo, o puede comprarla para una tercera persona. Los clientes son la parte más importante de un negocio. Con base en lo anterior, un cliente de atención médica puede definirse como una persona que manifiesta necesidades o deseos para sí mismo, o para los demás.
-    p.mb-5 Se puede recordar cuáles son los tipos de clientes en la figura 16:
+    p.mb-5 Se puede recordar cuáles son los tipos de clientes en la siguiente figura:
 
     h3.mb-5.text-center Tipos de clientes
 
@@ -77,7 +77,7 @@
 
         div
           figure
-              img(src='@/assets/tema8/img-15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-15-.svg', alt='Texto que describa la imagen')
               
         div
           figure
@@ -149,7 +149,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.bb Protocolo de atención al ciudadano sector salud
-                  p.mb-1.texto-blanco Para ampliar la información, se debe explorar la normatividad vigente, revisando el siguiente enlace para profundizar en la temática.
+                  p.mb-1.texto-blanco Conoce el protocolo de atención establecido para el ciudadano, en el cual se especifican los enfoques para este.
                   
                 .col-sm-auto
                   a.boton.bb(:href="obtenerLink('/downloads/protocolo-atencion-ciudadano-sector-salud.pdf')" target="_blank")
@@ -178,7 +178,7 @@
               p.mb-0 #[strong Instalaciones]
               p Debe brindársele al usuario la seguridad y acogida durante su asistencia a la Institución.
 
-    p Durante el proceso de prestación del servicio, se deber generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura 17:  
+    p Durante el proceso de prestación del servicio, se debe generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura:  
 
     p.text-small.r-n Ciclo de servicio
 

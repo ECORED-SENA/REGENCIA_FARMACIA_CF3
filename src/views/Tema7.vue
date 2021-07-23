@@ -25,10 +25,11 @@
       .col-lg-3.me-auto.p-0
         img(src='@/assets/tema7/img-1-.svg', alt='gente')
     
-    p Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura 14.
+    p Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura.
 
     p.text-small.r-n Proceso de decisión
     .col-11.col-lg-auto.justify-content-md-center.px-5.mb-5
+
         figure.mb-5
           img(src="@/assets/tema7/img-2.svg")     
 
@@ -54,7 +55,7 @@
         figure.mb-5
           img(src="@/assets/tema7/img-3.svg")  
 
-    p Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura 15.        
+    p Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura.        
     p.text-small.r-n Origen tipos de conflictos
     .row.justify-content-around.flex-d.mb-5
       .col-5.fond2.esp.p-5
@@ -73,12 +74,12 @@
                   i.ii.fas.fa-atom
                   p Por tener diversas culturas. 
 
-                li.mb-0 
-                  i.mb-0.ii.fas.fa-atom
-                  p.mb-0  Por los comportamientos organizacionales: 
-                  li.mb-0 
-                    i.mb-0
-                    p Su cultura.
+                li 
+                  i.ii.fas.fa-atom
+                  p Por los comportamientos organizacionales: 
+                li 
+                  i.ii.fas.fa-atom
+                  p Su cultura.
 
                 li 
                   i.ii.fas.fa-atom

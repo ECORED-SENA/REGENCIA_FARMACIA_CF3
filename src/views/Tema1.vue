@@ -20,14 +20,14 @@
         figure.mb-5
           img(src="@/assets/tema1/img-1.svg")  
 
-    p Dentro del proceso del planeamiento se cuenta con seis momentos clarísimos, que son los que se verán a continuación en la figura 1. 
+    p Dentro del proceso del planeamiento se cuenta con seis momentos clarísimos, que son los que se verán a continuación en la siguiente figura. 
     p.text-small.r-n Momentos planeamiento
   
     .col-11.col-lg-auto.justify-content-md-center.m-4.px-5
         figure.mb-5
           img(src="@/assets/tema1/img-2.svg")  
 
-    p.mb-5 Dentro de la #[strong planeación estratégica], se cuenta con #[strong dos acciones macro] que ayudan a llevar a cabo las actividades planeadas; estas acciones se pueden identificar, como se verá en el siguiente análisis en la figura 2:           
+    p.mb-5 Dentro de la #[strong planeación estratégica], se cuenta con #[strong dos acciones macro] que ayudan a llevar a cabo las actividades planeadas; estas acciones se pueden identificar, como se verá en el siguiente análisis en la figura:           
      p.text-small.r-n Acciones estratégicas y acciones tácticas
     
     .row.justify-content-around.mb-5
@@ -48,13 +48,13 @@
 
 
     p Acorde con la información anterior, se puede concluir que:#[strong  lo estratégico está ligado con la visión empresarial] y #[strong lo táctico se enlaza, directamente, con la misión empresarial]. En este sentido, es indispensable tener presente qué características debe cumplir cada una de estas acciones, para cumplir con un despliegue relativamente fácil, dentro de la organización.
-    p Las siguientes imágenes en la figura 3 nos exponen qué son la misión y la visión:
+    p Las siguientes imágenes nos exponen qué son la misión y la visión:
 
     p.text-small.r-n Visión
     .col-11.col-lg-auto.justify-content-md-center.px-5
         figure.mb-5
           img(src="@/assets/tema1/img-4.svg")   
-    p Aunque la visión está enmarcada en el futuro, se debe tener presente que no se debe perder de vista la realidad de lo externo; es decir, puede tener una dosis de fantasía y ambición, pero nunca desligarse de las condiciones tecnológicas, económicas y sociales, que pueden influir en el desarrollo de la misma, así como en la figura 4 se observa.            
+    p Aunque la visión está enmarcada en el futuro, se debe tener presente que no se debe perder de vista la realidad de lo externo; es decir, puede tener una dosis de fantasía y ambición, pero nunca desligarse de las condiciones tecnológicas, económicas y sociales, que pueden influir en el desarrollo de la misma, así como en la figura se observa.            
     p.text-small.r-n Misión
     .col-11.col-lg-auto.justify-content-md-center.px-5
         figure.mb-5
@@ -69,7 +69,7 @@
           p.mb-0.ml
             b Para que una empresa logre su misión (propósito) y visión (hacia dónde debe ir), debe establecer metas estratégicas, que se encuentren en perfecta sintonía con la misión y la visión. Las metas estratégicas pueden definirse como metas establecidas por una organización en un mercado en particular. Es decir, el resultado de lo que espera de su negocio, dentro de un cierto período de tiempo y encaminando los pasos concretos que le permitan, a su organización, cumplir con su misión de visión.
 
-    p.mb-5 Los #[strong objetivos estratégicos] (metas estratégicas), deben cumplir con las siguientes características, ver en la figura 5: 
+    p.mb-5 Los #[strong objetivos estratégicos] (metas estratégicas), deben cumplir con las siguientes características: 
 
 
 
@@ -102,7 +102,7 @@
           b Deben derivarse de las estrategias, de la misión y de la visión.
                
 
-    p Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación en la figura 6, se presenta una comparación entre ellos.
+    p Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación, se presenta una comparación entre ellos.
 
 
     p.text-small.r-n Características de los objetivos estratégicos y específicos
@@ -111,7 +111,7 @@
           img(src="@/assets/tema1/img-8.svg")  
 
 
-    p Ahora se puede observar en la figura 7 una descripción gráfica de los objetivos estratégicos y específicos en el marco de la misión y de la visión:
+    p Ahora se puede observar una descripción gráfica de los objetivos estratégicos y específicos en el marco de la misión y de la visión:
 
     .row.justify-content-around.align-items-center.p-5.fond3.m-0  
       p.text-small.r-n Estructura gráfica de los objetivos
@@ -174,7 +174,7 @@
             td
               p #[strong Ejemplos]
             td
-              p #[strong Ver figura 8.]
+              p #[strong Ejemplo de política general.]
             td
               .ul 
                 li Vida
@@ -199,7 +199,7 @@
           figure.mb-5
             img(src="@/assets/tema1/img-10-.svg")  
 
-    p En el contexto general de la plataforma estratégica, se han podido visualizar todas las líneas que la componen y la interacción entre ellas. Para resumir esta sesión de plataforma estratégica, realizar una lectura del siguiente diagrama de la figura 9, en donde se detalla la conexión entre todos los elementos anteriormente vistos. 
+    p En el contexto general de la plataforma estratégica, se han podido visualizar todas las líneas que la componen y la interacción entre ellas. Para resumir esta sesión de plataforma estratégica, realizar una lectura del siguiente diagrama, en donde se detalla la conexión entre todos los elementos anteriormente vistos. 
 
     p.text-small.r-n Articulación de la plataforma estratégica
     .col-11.col-lg-auto.justify-content-md-center.px-5

@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 2
       h1 Organigrama
-    p El organigrama institucional permite a la organización tener una estructura establecida con todas las áreas que componen la entidad, teniendo en cuenta los requerimientos de: recursos humanos, niveles de centralización y descentralización, grados de decisión, autoridad otorgada y complejidad de las unidades. Para tener claridad frente a los aspectos generales del organigrama, se deben contemplar los siguientes aspectos de la figura 10:
+    p El organigrama institucional permite a la organización tener una estructura establecida con todas las áreas que componen la entidad, teniendo en cuenta los requerimientos de: recursos humanos, niveles de centralización y descentralización, grados de decisión, autoridad otorgada y complejidad de las unidades. Para tener claridad frente a los aspectos generales del organigrama, se deben contemplar los siguientes aspectos:
     p.text-small.r-n Organigrama
     .col-11.col-lg-auto.justify-content-md-center.p-5
         figure.mb-5
@@ -51,7 +51,7 @@ export default {
       {
         texto:
           '<strong>Informativos:</strong> solo muestran la información más relevante.',
-        imagen: require('@/assets/tema2/img-3.svg'),
+        imagen: require('@/assets/tema2/img-3-.svg'),
       },
       {
         texto:
@@ -76,7 +76,7 @@ export default {
       {
         texto:
           '<strong>Plano:</strong> organigrama sin cargos de mandos intermedios, dos roles: directivos y empleados.',
-        imagen: require('@/assets/tema2/img-8.svg'),
+        imagen: require('@/assets/tema2/img-8-.svg'),
       },
     ],
   }),

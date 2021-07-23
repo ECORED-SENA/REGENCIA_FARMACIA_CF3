@@ -55,11 +55,13 @@ export default {
         titulo: 'Reglamento interno',
         desarrolloContenidos: true,
       },
+
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Cultura y clima organizacionales',
+        desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
@@ -110,12 +112,6 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -185,55 +181,55 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Empatía:',
+      termino: 'Empatía',
       significado:
         'capacidad de tomar el lugar de la otra persona y comprender lo que está sintiendo y pensando, sin expresarlo directamente; la capacidad de comunicarse con los demás de manera respetuosa y sus circunstancias únicas. La capacidad de comprender, obtener sus experiencias, sentimientos y opiniones.',
     },
     {
-      termino: 'Estrategia:',
+      termino: 'Estrategia',
       significado:
         'plan maestro para lograr una o más metas comunes en circunstancias inciertas.',
     },
     {
-      termino: 'Gestión:',
+      termino: 'Gestión',
       significado:
         'es la administración de recursos para ejecutar un proceso con responsabilidad individual o corporativa. Se refiere directamente a la coordinación de actividades y talento humano.',
     },
     {
-      termino: 'Líder:',
+      termino: 'Líder',
       significado:
         'persona que gestiona un equipo o grupo de personas en particular, que influye, motiva y trabaja con entusiasmo para todos los miembros del equipo. Se concentra en sus metas y objetivos, diariamente.',
     },
     {
-      termino: 'Misión:',
+      termino: 'Misión',
       significado: 'motivo o razón para la empresa.',
     },
     {
-      termino: 'Objetivo:',
+      termino: 'Objetivo',
       significado:
         'resultados deseados que se esperan alcanzar con la ejecución de las actividades que integran un proyecto, empresa o entidad. Medibles o cuantificables. Realista. Limitados en el tiempo.',
     },
     {
-      termino: 'Portafolio:',
+      termino: 'Portafolio',
       significado:
         'conjunto de documentos que pueden mostrar la totalidad, o diferentes aspectos de un individuo u organización, cuidadosamente seleccionado y organizado.',
     },
     {
-      termino: 'Postura:',
+      termino: 'Postura',
       significado:
         'actitud o manera de pensar sobre alguien o algo. Posición del cuerpo ante una actividad determinada.',
     },
     {
-      termino: 'Ruta:',
+      termino: 'Ruta',
       significado:
         'camino, carretera o vía que permite transitar desde un lugar hacia otro. Dirección que se toma para el logro de un propósito.',
     },
     {
-      termino: 'Táctica:',
+      termino: 'Táctica',
       significado: 'método empleado con el fin de obtener un objetivo.',
     },
     {
-      termino: 'Visión:',
+      termino: 'Visión',
       significado:
         'descripción de una expectativa ideal de lo que se espera en una empresa.',
     },
@@ -259,7 +255,7 @@ export default {
     },
     {
       texto:
-        'Comunicación 	Cultura 52. (2016) ¿Qué es Comunicación Asertiva? [video]. Youtube. https://www.youtube.com/watch?v=eF-UJWjGSX8',
+        'Comunicación 	Cultura 52. (2016) ¿Qué es Comunicación Asertiva? [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=eF-UJWjGSX8',
     },
@@ -311,19 +307,19 @@ export default {
       },
       {
         nombre: 'Luz Adriana Cárdenas',
-        cargo: 'Profesional Experta Temática',
+        cargo: 'Profesional experta temática',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
 
       {
         nombre: 'Emilia Sarmiento Mora',
-        cargo: 'Profesional Experta Temática',
+        cargo: 'Profesional experta temática',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
 
       {
         nombre: 'Edwing Amir Moreno Moreno',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
 
@@ -335,7 +331,7 @@ export default {
 
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
+        cargo: 'Diseñadora instruccional - Revisora metodológica y pedagógica',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
@@ -367,18 +363,13 @@ export default {
       },
       {
         nombre: 'Jorge Leonardo Camacho Pardo',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
